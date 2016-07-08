@@ -1,0 +1,95 @@
+@import 'settings';
+@import 'foundation-emails';
+.shadow {
+  box-shadow: 0 0 5px #595959;
+}
+
+.white-bg {
+  background: #FFF;
+}
+
+.image-wrapper {
+  text-align: center;
+  img {
+    display: inline-block;
+  }
+}
+
+.logo-text {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #636758;
+  letter-spacing: 1px;
+}
+
+.best-articles {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #484A43;
+  text-transform: uppercase;
+}
+
+.articles-title,
+.articles-text {
+  padding-left: 6px;
+}
+
+.articles-title {
+  a {
+    font-family: Arial, sans-serif;
+    color: #6D7E44;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+.articles-text {
+  font-size: 12px;
+  color: #333;
+}
+
+.decorative-line {
+  border-bottom: 3px solid #E5E5E5;
+}
+
+.contacts-name {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.contacts {
+  font-size: 12px;
+  color: #333;
+  a {
+    color: #6D7E44;
+  }
+}
+
+.right-side-options {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  a {
+    font-weight: bold;
+    color: #6D7E44;
+  }
+}
+
+.unsibscribe {
+  font-size: 12px;
+  text-align: center;
+  a {
+    color: #6D7E44;
+  }
+}
+
+@media only screen and (max-width: #{$global-breakpoint}) {
+  .articles-title,
+  .articles-text {
+    padding-left: 0;
+  }
+}
